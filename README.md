@@ -1,5 +1,5 @@
-# spring_android
-webはjava spring boot、androidはspring androidを使用した開発環境を整える
+# spring + android
+AndroidのWebViewとして使用するために、Webはspring bootを採用する。
 
 環境は以下の通り
 spring boot:       web application framework
