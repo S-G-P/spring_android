@@ -1,5 +1,7 @@
-# spring + android
+# spring app
 AndroidのWebViewとして使用するために、Webはspring bootを採用する。
+Android appのリポジトリは別に作成
+https://github.com/S-G-P/android_app
 
 環境は以下の通り
 spring boot:       web application framework
@@ -15,10 +17,6 @@ Gradle(Buildship): ビルドツール、もはやスタンダードでしょ。�
 Lombok:            @Getter, @SetterをBeanにつけるだけでGetMethod, SetMethodを書かなくてよくなる
 
 DevTools:          Spring Boot の開発補助ツール。ファイルを変更すると自動的に更新されるようになる。
-
-
-spring android
-
 
 
 随時足していく。README.mdに書くことかなぁ。。。
