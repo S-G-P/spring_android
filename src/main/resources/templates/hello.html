@@ -3,6 +3,18 @@
 <head>
 </head>
 <body>
-    <span th:text="${value}"></span>
+
+  <span th:text="${value}"></span><br></br>
+  
+  <tr th:each="list : ${stList}">
+    <td th:text="${list}"></td><br></br>
+  </tr>
+  
+  <tr th:each="list : ${sampleEntityList}">
+    <td th:text="${list.id}"></td><br></br>
+    <td th:text="${list.lastName}"></td><br></br>
+    <td th:text="${list.firstName}"></td><br></br>
+  </tr>
+  
 </body>
 </html>
