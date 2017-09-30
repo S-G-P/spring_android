@@ -1,4 +1,4 @@
-package hello.entity;
+package entity;
 
 import lombok.Getter;
 import lombok.Setter;
